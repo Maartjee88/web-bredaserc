@@ -1,12 +1,12 @@
 import React from 'react'
 import MainMenu from './MainMenu'
-import '../components/style.css'
+import '../styles/global.css'
 
 export default function Layout({ children }) {
     return (
         <div>
             <MainMenu />
-            <main>
+            <main className="pt-24">
                 {children}
             </main>
             <footer class="container">

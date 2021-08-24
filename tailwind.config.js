@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
@@ -8,21 +8,20 @@ module.exports = {
       lg: '992px',
       xl: '1200px',
     },
-    extend: {
-      colors: {
-        primary: {
-          '50': '#ffffff',
-          '100': '#feecd6',
-          '200': '#fdd9ad',
-          '300': '#fdc784',
-          '400': '#fcb45b',
-          '500': '#fba132',
-          '600': '#da8a26',
-          '700': '#ba721a',
-          '800': '#995b0e',
-          '900': '#784302',
-        }
-      }
+    container: {
+      center: true,
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      primary: 'var(--color-primary)',
+      'primary-dark': 'var(--color-primary-dark)',
+      'primary-light': 'var(--color-primary-light)',
+      secondary: 'var(--color-secondary)',
+      black: 'var(--color-black)',
+      'gray-dark': 'var(--color-gray-dark)',
+      'gray-light': 'var(--color-gray-light)',
+      white: 'var(--color-white)',
     },
     fontFamily: {
       'sans': ['Lato', 'sans-serif'],

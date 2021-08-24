@@ -1,0 +1,11 @@
+:root {
+    /* BRC colors */
+    --color-primary: #FBA132;
+    --color-primary-dark: #AE6000;
+    --color-primary-light: #FFC782;
+    --color-secondary: #2773A0;
+    --color-black: #212121;
+    --color-gray-dark: #757575;
+    --color-gray-light: #BDBDBD;
+    --color-white: #FFFFFF;
+  }

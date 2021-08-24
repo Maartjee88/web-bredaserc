@@ -1,0 +1,7 @@
+.container {
+    @apply py-8;
+}
+
+.container-nulled {
+    @apply py-0;
+}
