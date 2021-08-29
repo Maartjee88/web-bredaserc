@@ -7,8 +7,8 @@ export default function Footer() {
             <div className="grid grid-cols-12 gap-8">
                 <div className="col-span-6">
                     <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
-                        <img src="https://source.unsplash.com/random/300x100/?logo" />
-                        <img src="https://source.unsplash.com/random/300x100/?logo" />
+                        <img alt="develop" src="https://source.unsplash.com/random/300x100/?logo" />
+                        <img alt="develop" src="https://source.unsplash.com/random/300x100/?logo" />
                     </div>
                 </div>
                 <div className="col-span-4">
