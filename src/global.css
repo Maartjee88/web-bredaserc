@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Oswald:wght@400;500&display=swap");
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* BRC colors */
+  --color-primary: #fba132;
+  --color-primary-dark: #ae6000;
+  --color-primary-light: #ffc782;
+  --color-secondary: #2773a0;
+  --color-black: #212121;
+  --color-gray-dark: #757575;
+  --color-gray-light: #bdbdbd;
+  --color-gray-lightest: #dfdfdf;
+  --color-white: #ffffff;
+}
+
+/* ----- CONTAINER ----- */
+.container {
+  @apply py-8;
+}
+
+.container-nulled {
+  @apply py-0;
+}
+
+/* ----- BUTTON ----- */
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
