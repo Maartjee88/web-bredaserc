@@ -12,10 +12,14 @@
   --color-primary-light: #ffc782;
   --color-secondary: #2773a0;
   --color-black: #212121;
-  --color-gray-dark: #757575;
-  --color-gray-light: #bdbdbd;
-  --color-gray-lightest: #dfdfdf;
+  --color-gray-dark: #656565;
+  --color-gray-light: #878787;
+  --color-gray-lightest: #ededed;
   --color-white: #ffffff;
+}
+
+html {
+  font-size: 16px;
 }
 
 /* ----- CONTAINER ----- */
@@ -25,6 +29,32 @@
 
 .container-nulled {
   @apply py-0;
+}
+
+/* ----- BUTTON ----- */
+
+.h1 {
+  @apply text-2xl;
+}
+
+.h2 {
+  @apply text-xl font-medium;
+}
+
+.h3 {
+  @apply text-lg font-medium;
+}
+
+.paragraph {
+  @apply text-base;
+}
+
+.paragraph-small {
+  @apply text-sm;
+}
+
+.caption {
+  @apply text-xs;
 }
 
 /* ----- BUTTON ----- */

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 export default function Footer() {
     return (
-        <footer class="container">
+        <footer className="container">
             <div className="grid grid-cols-12 gap-8">
                 <div className="col-span-6">
                     <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
