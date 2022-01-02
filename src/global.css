@@ -16,14 +16,11 @@
   --color-gray-light: #878787;
   --color-gray-lightest: #ededed;
   --color-white: #ffffff;
-}
-
-html {
   font-size: 16px;
 }
 
 /* ----- CONTAINER ----- */
-.container {
+ .container {
   @apply py-8;
 }
 
@@ -33,29 +30,34 @@ html {
 
 /* ----- BUTTON ----- */
 
-.h1 {
-  @apply text-2xl;
+ .heading-h1 {
+  @apply text-head-xl lg:text-head-xl-lg text-primary;
 }
 
-.h2 {
-  @apply text-xl font-medium;
+.heading-h2 {
+  @apply text-head-lg lg:text-head-lg-lg text-primary;
 }
 
-.h3 {
-  @apply text-lg font-medium;
+.heading-h3 {
+  @apply text-head-md lg:text-head-md-lg;
+}
+
+.heading-h4 {
+  @apply text-head-sm lg:text-head-sm-lg;
 }
 
 .paragraph {
-  @apply text-base;
+  @apply text-body-base;
 }
 
 .paragraph-small {
-  @apply text-sm;
+  @apply text-body-sm;
 }
 
 .caption {
-  @apply text-xs;
+  @apply text-body-xs;
 }
+
 
 /* ----- BUTTON ----- */
 .btn {
