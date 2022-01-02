@@ -1,10 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 import Layout from '../components/Layout'
 
 export default function Sponsoren() {
     return (
         <Layout>
-            <h1 className="font-header text-4xl">Onze sponsoren</h1>
+            <Header />
         </Layout>
     )
 }

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Oswald:wght@400;500&display=swap");
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* BRC colors */
+  --color-primary: #fba132;
+  --color-primary-dark: #ae6000;
+  --color-primary-light: #ffc782;
+  --color-secondary: #2773a0;
+  --color-black: #212121;
+  --color-gray-dark: #656565;
+  --color-gray-light: #878787;
+  --color-gray-lightest: #ededed;
+  --color-white: #ffffff;
+  font-size: 16px;
+}
+
+/* ----- CONTAINER ----- */
+ .container {
+  @apply py-8;
+}
+
+.container-nulled {
+  @apply py-0;
+}
+
+/* ----- BUTTON ----- */
+
+ .heading-h1 {
+  @apply text-head-xl lg:text-head-xl-lg text-primary;
+}
+
+.heading-h2 {
+  @apply text-head-lg lg:text-head-lg-lg text-primary;
+}
+
+.heading-h3 {
+  @apply text-head-md lg:text-head-md-lg;
+}
+
+.heading-h4 {
+  @apply text-head-sm lg:text-head-sm-lg;
+}
+
+.paragraph {
+  @apply text-body-base;
+}
+
+.paragraph-small {
+  @apply text-body-sm;
+}
+
+.caption {
+  @apply text-body-xs;
+}
+
+
+/* ----- BUTTON ----- */
+.btn {
+  @apply font-bold text-white py-2 px-4 rounded bg-primary;
+}
